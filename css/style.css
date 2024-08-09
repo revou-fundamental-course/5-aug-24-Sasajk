@@ -1,1 +1,26 @@
 /* ini css */
+
+.main-title (
+    text-align: center;
+)
+
+form (
+    padding: 12px;
+    background-color: alicebl
+)
+
+main (
+    display: flex;
+)
+
+aside (
+    padding: 48px;
+)
+
+.button (
+    height: 32px;
+    background-color: cyan;
+    border: none;
+    border-radius: 4px;
+})
+
