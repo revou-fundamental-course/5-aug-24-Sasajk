@@ -4,73 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css\style.css">
+    <script src="js\script.js" defer></script>
+</head>
 <body>
+    <body>
+        <header>
+            <h1 class="main-title">Kalkulator BMI</h1>
+        </header>    
+
+    <div class="wrapper">
+        <p>Height in CM:
+            <input type="text" id="height"><br><span id="height_error"></span>
+        </p>
+
+        <p>Weight in KG:
+            <input type="text" id="weight"><br><span id="weight_error"></span>
+        </p>
+
+        <p>age in year:
+            <input type="text" id="age"><br><span id="age_error"></span>
+        </p>
+
+        <button id="btn">Calculate</button>
+        <p id="output"></p>
+    </div>
+
     <header>
-        <h1 class="main-title">Kalkulator BMI</h1>
+        <h2>Form Informations</h2>
     </header>
 
-    <main>
-        <aside>
-        <article>
-            <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration. Use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into either US or metric units. Note that the calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in detail.
-
-            </p>
-        </article>
-
-        <form>
-            <div>
-                <h3>Jenis Kelamin</h3>
-                <input type="radio" id="laki-laki" name="jenis kelamin" value="laki-laki"><label for="laki-laki">Laki-Laki</label>
-                <input type="radio" id="perempuan" name="jenis kelamin" value="perempuan"><label for="perempuan">Perempuan</label>
-            </div>
-
-            <div>
-                <h3>Berat Badan</h3>
-                <input type="number">
-            </div>
-
-            <div>
-                <h3>Usia</h3>
-                <input type="number">
-            </div>
-
-            <div>
-                <h3>Tinggi Badan</h3>
-                <input type="text">
-            </div>
-
-            <div>
-                <button class="button">Submit</button>
-                <button class="button">Reset</button>
-            </div>
-        </form>
-        
-        <article>
-            <header>
-                <h2>Form Informations</h2>
-            </header>
-
-            <p>Cara menggunakan Kalkulator BMI DokterSehat: 
-                -Masukkan tinggi badan Anda (dalam satuan cm)
-                -Masukkan berat badan Anda (dalam satuan kg)
-                -Masukkan Usia Anda. Klik “Submit!” Hasil perhitungan BMI Anda akan muncul Hasil perhitungan BMI akan disesuaikan dengan tinggi badan dan berat badan yang Anda masukkan ke dalam kalkulator. Selanjutnya, Anda bisa mengetahui apakah Anda tergolong kurus, ideal, gemuk, atau obesitas.</p>
-        </article>
-        </aside>
+    <p>Cara menggunakan Kalkulator BMI:</p> 
+    <p>-Masukkan tinggi badan Anda (dalam satuan cm)</p>
+    <p>-Masukkan berat badan Anda (dalam satuan kg)</p>
+    <p>-Masukkan Usia Anda</p> 
+    
 
 
-        <aside>
-        <section>
-            <p>Cara menggunakan Kalkulator BMI DokterSehat: 
-                -Masukkan tinggi badan Anda (dalam satuan cm)
-                -Masukkan berat badan Anda (dalam satuan kg)
-                -Masukkan Usia Anda. Klik “Submit!” Hasil perhitungan BMI Anda akan muncul Hasil perhitungan BMI akan disesuaikan dengan tinggi badan dan berat badan yang Anda masukkan ke dalam kalkulator. Selanjutnya, Anda bisa mengetahui apakah Anda tergolong kurus, ideal, gemuk, atau obesitas.</p>
-        </section>
-        </aside>
-    </main>
-
-    <footer>Made By Sasa</footer>
+    <footer>
+        <p>Made By Sasa</p>
+     </footer>
+ 
 </body>
-
 </html>
